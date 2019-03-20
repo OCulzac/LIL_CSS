@@ -67,6 +67,13 @@ a:hover {
   text-transform: uppercase;
 }
 
+.btn {
+  text-decoration: none;
+  background: #ef233c;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
 /* Header and Footer
 ------------------------ */
 header,
@@ -77,6 +84,7 @@ footer {
 /* Header */
 header {
   padding-top: 50px;
+  position: relative;
 }
 header h1,
 header h2 {
@@ -89,6 +97,12 @@ header h2 {
   /*   width: 300px;
   float: left; 
   margin-right: 30px;*/
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* Footer */
